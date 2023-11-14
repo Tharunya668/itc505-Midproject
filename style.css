@@ -1,0 +1,66 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('game-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: Orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#story-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: purple;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#story-image {
+    max-width: 100%;
+    border-radius: 18px;
+}
+
+#story {
+    margin-top: 20px;
+}
+
+#choices {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 5px;
+    background-color: CornflowerBlue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: lightpink;
+}
+#addendum {
+    margin: 20px;
+    padding: 20px;
+    background-color: purple;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#addendum h2 {
+    color: #333;
+}

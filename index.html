@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Choose Your Adventure</title>
+</head>
+<body>
+    <header>
+        <h1>BTS ARMY BOMB ADVENTURE</h1>
+    </header>
+    <div id="story-container">
+        <div id="story"></div>
+        <div id="choices"></div>
+        <img id="story-image" src="" alt="Game Image">
+    </div>
+    <section id="addendum">
+        <h2>Addendum</h2>
+        <p>
+            The HTML file was structured to include a header, a section for the story text, a choice section, and an image display area.
+Semantically meaningful HTML tags were used for clarity and accessibility.Each stage of the story was represented as an object.
+Properties like text, choices, consequences, and image were defined for each stage.
+Consequence properties were aligned with the keys for the next part of the story.A function was created to initialize or restart the game. This function set the initial state and triggered the updatePage function.This function dynamically updated the HTML to reflect the current stage of the story.
+Event listeners were attached to choice buttons to progress the story when clicked.Similar to the update page function, the end game function updated the HTML to display the final outcome, removed choice buttons, and showed a relevant image.A separate CSS file was used to enhance the visual appeal of the webpage.Styling choices were made to create an immersive and visually engaging experience.Aligning consequence properties with the correct keys for the next story part required careful attention.Managing images dynamically based on user choices posed a challenge.Solution: A consistent naming or indexing convention for images, corresponding to story stages, helped streamline the image display.Solution: Thorough testing and debugging were performed to ensure the correct flow of the story.Creating a 'Choose Your Own Adventure' game involved a holistic approach, combining storytelling, coding, and design considerations. Overcoming challenges and gaining insights into user engagement and web development processes were valuable aspects of this creative endeavor. The project not only resulted in a functional game but also provided a foundation for further exploration and refinement in interactive web-based storytelling.
+        </p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
